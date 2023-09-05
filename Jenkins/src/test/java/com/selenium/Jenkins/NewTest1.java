@@ -8,8 +8,9 @@ public class NewTest1 {
   @Test
   public void f() {
 	  WebDriver driver=new ChromeDriver();
-	  driver.get("https://bing.com");
+	  driver.get("https://google.com");
 	  String t=driver.getTitle();
+	  System.out.println(t);
 	  
   }
 }
