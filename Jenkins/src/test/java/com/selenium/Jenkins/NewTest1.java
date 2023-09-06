@@ -11,6 +11,5 @@ public class NewTest1 {
 	  driver.get("https://google.com");
 	  String t=driver.getTitle();
 	  System.out.println(t);
-	  
   }
 }
